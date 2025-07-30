@@ -28,4 +28,3 @@ def get_sort(chars_dict):
             result.append(char_info)
     result.sort(reverse=True, key=sort_on)
     return result
-
